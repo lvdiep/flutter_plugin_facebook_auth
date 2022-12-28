@@ -6,6 +6,7 @@
 //
 
 import Flutter
+import FBSDKCoreKit
 import FBSDKLoginKit
 import Foundation
 
@@ -69,6 +70,18 @@ class FacebookAuth: NSObject {
         case "isAutoLogAppEventsEnabled":
             let enabled:Bool = Settings.shared.isAutoLogAppEventsEnabled
             result(enabled)
+            
+        case "setupConfig":
+            Settings.shared.isAutoLogAppEventsEnabled = false
+            Settings.shared.isAdvertiserIDCollectionEnabled = false
+            if let appId = args?["appId"] as? String {
+                Settings.shared.appID = appId
+                Settings.shared.appURLSchemeSuffix = ""
+            }
+            if let version = args?["version"] as? String {
+                Settings.shared.graphAPIVersion = version
+            }
+            result(nil)
             
         default:
             result(FlutterMethodNotImplemented)

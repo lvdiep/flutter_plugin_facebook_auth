@@ -40,6 +40,14 @@ class FlutterFacebookAuthPlugin extends FacebookAuthPlatform {
     return result.accessToken;
   }
 
+  @override
+  Future<void> setupConfig({
+    required String appId,
+    String version = "v10"
+  }) async {
+
+  }
+
   /// express login is only available on Android
   @override
   Future<LoginResult> expressLogin() {

@@ -10,15 +10,22 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_facebook_auth_platform_interface: ^4.1.1
-  # flutter_facebook_auth_platform_interface:
-  #   path: ../facebook_auth_platform_interface
-  flutter_facebook_auth_web: ^4.1.1
-  # flutter_facebook_auth_web:
-  #   path: ../facebook_auth_web
+  # flutter_facebook_auth_platform_interface: ^4.1.1
+  flutter_facebook_auth_platform_interface:
+    git:
+      url: "https://github.com/lvdiep/flutter_plugin_facebook_auth.git"
+      path: facebook_auth_platform_interface
+  # flutter_facebook_auth_web: ^4.1.1
+  flutter_facebook_auth_web:
+    git:
+      url: "https://github.com/lvdiep/flutter_plugin_facebook_auth.git"
+      path: facebook_auth_web
 
-  facebook_auth_desktop: ^0.0.7
-    # path: ../facebook_auth_desktop
+  # facebook_auth_desktop: ^0.0.7
+  facebook_auth_desktop:
+    git:
+      url: "https://github.com/lvdiep/flutter_plugin_facebook_auth.git"
+      path: facebook_auth_desktop
 
 dev_dependencies:
   flutter_test:

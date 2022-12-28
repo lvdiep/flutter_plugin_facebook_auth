@@ -33,6 +33,14 @@ class FacebookAuthDesktopPlugin extends FacebookAuthPlatform {
   }
 
   @override
+  Future<void> setupConfig({
+    required String appId,
+    String version = "v10.0"
+  }) async {
+    return;
+  }
+
+  @override
   Future<AccessToken?> get accessToken async {
     final data = await _secureStorage.read(
       key: _facebookAccessTokenKey,

@@ -58,6 +58,10 @@ public class FlutterFacebookAuthPlugin implements FlutterPlugin, MethodCallHandl
                 facebookAuth.logOut(result);
                 break;
 
+            case "setupConfig":
+                String appID = call.argument("appId");
+                facebookAuth.setupConfig(appID, result);
+                break;
             default:
                 result.notImplemented();
         }

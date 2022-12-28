@@ -1,6 +1,7 @@
 // ignore_for_file: dead_code
 
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
@@ -157,6 +158,18 @@ void main() {
       expect(await facebookAuth.isAutoLogAppEventsEnabled, false);
       await facebookAuth.autoLogAppEventsEnabled(true);
       expect(await facebookAuth.isAutoLogAppEventsEnabled, true);
+    });
+
+    test('setupConfig', () async {
+      bool isSetupConfig = false;
+      when(
+        () => facebookAuth.setupConfig(appId: "appId")
+      ).thenAnswer((invocation) async {
+        isSetupConfig = true;
+      });
+
+      await facebookAuth.setupConfig(appId: "appId");
+      expect(isSetupConfig, true);
     });
   });
 }

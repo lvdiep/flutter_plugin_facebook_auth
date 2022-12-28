@@ -45,6 +45,16 @@ abstract class FacebookAuthPlatform extends PlatformInterface {
   /// on Android and iOS is always true
   bool get isWebSdkInitialized;
 
+  /// config facebook SDK
+  ///
+  /// [appId]
+  ///
+  /// [version] default v10
+  Future<void> setupConfig({
+    required String appId,
+    String version = "v10.0"
+  });
+
   /// make a login request using the facebook SDK
   ///
   /// [permissions] permissions like ["email","public_profile"]

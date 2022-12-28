@@ -66,6 +66,11 @@ class FacebookAuth {
   /// Sign Out from Facebook
   Future<void> logOut() => _authPlatform.logOut();
 
+  Future<void> setupConfig({
+    required String appId,
+    String version = "v10.0"
+  }) => _authPlatform.setupConfig(appId: appId, version: version);
+
   /// make a login request using the facebook SDK
   ///
   /// [permissions] permissions like ["email","public_profile"]

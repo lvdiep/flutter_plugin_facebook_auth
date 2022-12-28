@@ -19,6 +19,17 @@ class FacebookAuthPlatformImplementation extends FacebookAuthPlatform {
   MethodChannel channel =
       const MethodChannel('app.meedu/flutter_facebook_auth');
 
+  @override
+  Future<void> setupConfig({
+    required String appId,
+    String version = "v10"
+  }) {
+    return channel.invokeMethod("setupConfig", {
+      "appId": appId,
+      "version": version,
+    });
+  }
+
   /// make a login request using the facebook SDK
   ///
   /// [permissions] permissions like ["email","public_profile"]
