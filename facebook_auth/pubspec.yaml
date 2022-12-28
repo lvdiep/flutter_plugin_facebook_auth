@@ -26,6 +26,7 @@ dependencies:
     git:
       url: "https://github.com/lvdiep/flutter_plugin_facebook_auth.git"
       path: facebook_auth_desktop
+      ref: 825c812
 
 dev_dependencies:
   flutter_test:

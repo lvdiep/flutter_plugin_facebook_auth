@@ -40,8 +40,8 @@ packages:
     dependency: transitive
     description:
       path: facebook_auth_desktop
-      ref: HEAD
-      resolved-ref: "076f1bb1df8b949651af1cd936ff31c01186af3d"
+      ref: "825c812"
+      resolved-ref: "825c812a11fbad2fa23c87ff12ac7f3de9c20776"
       url: "https://github.com/lvdiep/flutter_plugin_facebook_auth.git"
     source: git
     version: "0.0.7"
@@ -93,8 +93,8 @@ packages:
     dependency: transitive
     description:
       path: flutter_secure_storage
-      ref: HEAD
-      resolved-ref: b8e72a3c100b120deb86d41422b892d61417126a
+      ref: faef157
+      resolved-ref: faef1578d74db623a6fb7550068e0e71f0174455
       url: "git@github.com:lvdiep/flutter_plugin_secure_storage.git"
     source: git
     version: "5.0.2"
