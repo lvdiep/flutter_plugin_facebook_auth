@@ -90,7 +90,7 @@ packages:
     description:
       path: facebook_auth_desktop
       ref: HEAD
-      resolved-ref: "84421d8366bf33def8f25bb26b5c1dc8c43936db"
+      resolved-ref: "076f1bb1df8b949651af1cd936ff31c01186af3d"
       url: "https://github.com/lvdiep/flutter_plugin_facebook_auth.git"
     source: git
     version: "0.0.7"
@@ -118,7 +118,7 @@ packages:
     description:
       path: facebook_auth_platform_interface
       ref: HEAD
-      resolved-ref: "84421d8366bf33def8f25bb26b5c1dc8c43936db"
+      resolved-ref: "076f1bb1df8b949651af1cd936ff31c01186af3d"
       url: "https://github.com/lvdiep/flutter_plugin_facebook_auth.git"
     source: git
     version: "4.1.1"
@@ -127,7 +127,7 @@ packages:
     description:
       path: facebook_auth_web
       ref: HEAD
-      resolved-ref: "84421d8366bf33def8f25bb26b5c1dc8c43936db"
+      resolved-ref: "076f1bb1df8b949651af1cd936ff31c01186af3d"
       url: "https://github.com/lvdiep/flutter_plugin_facebook_auth.git"
     source: git
     version: "4.1.1"
@@ -136,10 +136,10 @@ packages:
     description:
       path: flutter_secure_storage
       ref: HEAD
-      resolved-ref: "5a66ad326c231ea6a0a998b422e0c554c53c68ec"
-      url: "https://github.com/mogol/flutter_secure_storage.git"
+      resolved-ref: b8e72a3c100b120deb86d41422b892d61417126a
+      url: "git@github.com:lvdiep/flutter_plugin_secure_storage.git"
     source: git
-    version: "7.0.1"
+    version: "5.0.2"
   flutter_secure_storage_linux:
     dependency: transitive
     description:
@@ -153,7 +153,7 @@ packages:
       name: flutter_secure_storage_macos
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.1"
+    version: "1.1.2"
   flutter_secure_storage_platform_interface:
     dependency: transitive
     description:

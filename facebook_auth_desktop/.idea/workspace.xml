@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d6d5ed7-1b96-4f83-ae18-35513035fb15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" />
-    </list>
+    <list default="true" id="8d6d5ed7-1b96-4f83-ae18-35513035fb15" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

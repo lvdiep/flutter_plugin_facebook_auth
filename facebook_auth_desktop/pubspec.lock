@@ -60,7 +60,7 @@ packages:
     description:
       path: facebook_auth_platform_interface
       ref: HEAD
-      resolved-ref: "4b2013777d3c6de2b1bddbcb18f452ed636225ec"
+      resolved-ref: "076f1bb1df8b949651af1cd936ff31c01186af3d"
       url: "https://github.com/lvdiep/flutter_plugin_facebook_auth.git"
     source: git
     version: "4.1.1"
