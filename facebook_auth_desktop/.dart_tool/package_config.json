@@ -51,7 +51,7 @@
     },
     {
       "name": "flutter_facebook_auth_platform_interface",
-      "rootUri": "file:///Users/flutter/.pub-cache/git/flutter_plugin_facebook_auth-30bba6a1e27272b12b0589f5d9dba83f015952cd/facebook_auth_platform_interface",
+      "rootUri": "file:///Users/flutter/.pub-cache/git/flutter_plugin_facebook_auth-4b2013777d3c6de2b1bddbcb18f452ed636225ec/facebook_auth_platform_interface",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -224,7 +224,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2022-12-28T10:24:43.741094Z",
+  "generated": "2022-12-28T10:28:02.699703Z",
   "generator": "pub",
   "generatorVersion": "2.17.6"
 }

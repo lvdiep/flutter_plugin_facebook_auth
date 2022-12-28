@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d6d5ed7-1b96-4f83-ae18-35513035fb15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +68,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="458" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1672222985420">
+      <screen x="0" y="25" width="1440" height="795" />
+    </state>
+    <state x="458" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.795@0.25.1440.795" timestamp="1672222985420" />
     <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1672214808762">
       <screen x="0" y="25" width="1440" height="795" />
     </state>
