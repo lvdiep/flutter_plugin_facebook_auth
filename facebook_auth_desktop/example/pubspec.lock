@@ -89,8 +89,8 @@ packages:
     dependency: transitive
     description:
       path: flutter_secure_storage
-      ref: HEAD
-      resolved-ref: b8e72a3c100b120deb86d41422b892d61417126a
+      ref: faef157
+      resolved-ref: faef1578d74db623a6fb7550068e0e71f0174455
       url: "git@github.com:lvdiep/flutter_plugin_secure_storage.git"
     source: git
     version: "5.0.2"

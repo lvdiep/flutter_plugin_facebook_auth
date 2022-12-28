@@ -75,7 +75,7 @@
     },
     {
       "name": "flutter_secure_storage",
-      "rootUri": "file:///Users/flutter/.pub-cache/git/flutter_plugin_secure_storage-b8e72a3c100b120deb86d41422b892d61417126a/flutter_secure_storage",
+      "rootUri": "file:///Users/flutter/.pub-cache/git/flutter_plugin_secure_storage-faef1578d74db623a6fb7550068e0e71f0174455/flutter_secure_storage",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -236,7 +236,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-12-28T10:32:54.560351Z",
+  "generated": "2022-12-28T10:50:25.999128Z",
   "generator": "pub",
   "generatorVersion": "2.17.6"
 }

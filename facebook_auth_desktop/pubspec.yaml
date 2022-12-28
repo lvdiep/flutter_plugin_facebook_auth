@@ -15,6 +15,7 @@ dependencies:
     git:
       url: "git@github.com:lvdiep/flutter_plugin_secure_storage.git"
       path: flutter_secure_storage
+      ref: faef157
   # flutter_facebook_auth_platform_interface: ^4.1.1
   flutter_facebook_auth_platform_interface:
     git:
