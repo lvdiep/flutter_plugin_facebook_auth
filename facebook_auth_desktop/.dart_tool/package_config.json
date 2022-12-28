@@ -51,7 +51,7 @@
     },
     {
       "name": "flutter_facebook_auth_platform_interface",
-      "rootUri": "file:///Users/flutter/.pub-cache/git/flutter_plugin_facebook_auth-84421d8366bf33def8f25bb26b5c1dc8c43936db/facebook_auth_platform_interface",
+      "rootUri": "file:///Users/flutter/.pub-cache/git/flutter_plugin_facebook_auth-30bba6a1e27272b12b0589f5d9dba83f015952cd/facebook_auth_platform_interface",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -63,7 +63,7 @@
     },
     {
       "name": "flutter_secure_storage",
-      "rootUri": "file:///Users/flutter/.pub-cache/git/flutter_plugin_secure_storage-45c8fe459519c522550fd6e36976e26fe094caf5/flutter_secure_storage",
+      "rootUri": "file:///Users/flutter/.pub-cache/git/flutter_plugin_secure_storage-b8e72a3c100b120deb86d41422b892d61417126a/flutter_secure_storage",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -224,7 +224,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2022-12-28T08:07:14.610693Z",
+  "generated": "2022-12-28T10:24:43.741094Z",
   "generator": "pub",
   "generatorVersion": "2.17.6"
 }

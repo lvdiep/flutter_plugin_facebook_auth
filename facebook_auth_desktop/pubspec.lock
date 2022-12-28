@@ -60,7 +60,7 @@ packages:
     description:
       path: facebook_auth_platform_interface
       ref: HEAD
-      resolved-ref: "84421d8366bf33def8f25bb26b5c1dc8c43936db"
+      resolved-ref: "30bba6a1e27272b12b0589f5d9dba83f015952cd"
       url: "https://github.com/lvdiep/flutter_plugin_facebook_auth.git"
     source: git
     version: "4.1.1"
@@ -76,7 +76,7 @@ packages:
     description:
       path: flutter_secure_storage
       ref: HEAD
-      resolved-ref: "45c8fe459519c522550fd6e36976e26fe094caf5"
+      resolved-ref: b8e72a3c100b120deb86d41422b892d61417126a
       url: "git@github.com:lvdiep/flutter_plugin_secure_storage.git"
     source: git
     version: "5.0.2"

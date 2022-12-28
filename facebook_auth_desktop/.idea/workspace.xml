@@ -23,26 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d6d5ed7-1b96-4f83-ae18-35513035fb15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../facebook_auth/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../facebook_auth/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../facebook_auth/example/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../facebook_auth/example/lib/pages/splash/splash_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../facebook_auth/example/lib/pages/splash/splash_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../facebook_auth/example/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../facebook_auth/example/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../facebook_auth/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../facebook_auth/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/example/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/example/.dart_tool/version" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/example/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebook_auth_desktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/facebook_auth_desktop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/facebook_auth_desktop.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/facebook_auth_desktop.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../facebook_auth_web/lib/src/facebook_auth_plugin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../facebook_auth_web/lib/src/facebook_auth_plugin.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,5 +65,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1672214808762">
+      <screen x="0" y="25" width="1440" height="795" />
+    </state>
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.25.1440.795@0.25.1440.795" timestamp="1672214808762" />
   </component>
 </project>

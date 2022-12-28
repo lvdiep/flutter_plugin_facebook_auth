@@ -40,6 +40,10 @@ class SplashController extends ChangeNotifier {
     notifyListeners();
   }
 
+  Future<void> setupConfig() async {
+    await _facebookAuth.setupConfig(appId: "appId");
+  }
+
   Future<bool> login() async {
     _fetching = true;
     notifyListeners();
