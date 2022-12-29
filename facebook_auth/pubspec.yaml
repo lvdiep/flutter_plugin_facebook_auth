@@ -15,9 +15,11 @@ dependencies:
       url: "git@github.com:lvdiep/flutter_plugin_facebook_auth.git"
       path: facebook_auth_platform_interface
       ref: 90c5e30
-  flutter_facebook_auth_web: ^2.6.0+2
-  # flutter_facebook_auth_web:
-  #   path: ../facebook_auth_web
+  flutter_facebook_auth_web:
+    git:
+      url: "git@github.com:lvdiep/flutter_plugin_facebook_auth.git"
+      path: facebook_auth_web
+      ref: 0cd3462
 
 
 dev_dependencies:

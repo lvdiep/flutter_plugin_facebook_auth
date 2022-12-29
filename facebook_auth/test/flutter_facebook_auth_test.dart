@@ -15,6 +15,7 @@ void main() {
     );
     late FacebookAuth facebookAuth;
     late bool isLogged, isAutoLogAppEventsEnabled;
+    late bool isSetupConfig;
 
     setUp(() {
       debugDefaultTargetPlatformOverride = TargetPlatform.android;
@@ -50,6 +51,11 @@ void main() {
             if (isIOS) {
               isAutoLogAppEventsEnabled = call.arguments['enabled'];
             }
+            break;
+          case "setupConfig":
+            Map<String, dynamic> data = Map<String, dynamic>.from(call.arguments);
+            isSetupConfig = data["appId"] == "appId";
+            break;
         }
       });
     });
@@ -87,6 +93,11 @@ void main() {
       expect(await facebookAuth.isAutoLogAppEventsEnabled, false);
       await facebookAuth.autoLogAppEventsEnabled(true);
       expect(await facebookAuth.isAutoLogAppEventsEnabled, true);
+    });
+
+    test('setupConfig', () async {
+      facebookAuth.setupConfig(appId: "appId");
+      expect(isSetupConfig, true);
     });
   });
 }

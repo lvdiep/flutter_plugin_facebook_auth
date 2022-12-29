@@ -7,7 +7,7 @@ packages:
       name: characters
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0"
+    version: "1.2.0"
   charcode:
     dependency: transitive
     description:
@@ -28,7 +28,7 @@ packages:
       name: collection
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.15.0"
+    version: "1.16.0"
   crypto:
     dependency: transitive
     description:
@@ -72,16 +72,20 @@ packages:
   flutter_facebook_auth_platform_interface:
     dependency: transitive
     description:
-      name: flutter_facebook_auth_platform_interface
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: facebook_auth_platform_interface
+      ref: "90c5e30"
+      resolved-ref: "90c5e3056a7272054e55f2bbf12d05c86f2f19a8"
+      url: "git@github.com:lvdiep/flutter_plugin_facebook_auth.git"
+    source: git
     version: "2.7.1"
   flutter_facebook_auth_web:
     dependency: transitive
     description:
-      name: flutter_facebook_auth_web
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: facebook_auth_web
+      ref: "0cd3462"
+      resolved-ref: "0cd346229b56c13037a1f87f7dfedcf5bd65798c"
+      url: "git@github.com:lvdiep/flutter_plugin_facebook_auth.git"
+    source: git
     version: "2.6.0+2"
   flutter_plugin_android_lifecycle:
     dependency: transitive
@@ -129,7 +133,7 @@ packages:
       name: js
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.6.3"
+    version: "0.6.4"
   local_auth:
     dependency: "direct main"
     description:
@@ -137,6 +141,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.6"
+  material_color_utilities:
+    dependency: transitive
+    description:
+      name: material_color_utilities
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.4"
   meta:
     dependency: transitive
     description:
@@ -323,7 +334,7 @@ packages:
       name: vector_math
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.0"
+    version: "2.1.2"
   win32:
     dependency: transitive
     description:
@@ -339,5 +350,5 @@ packages:
     source: hosted
     version: "0.2.0"
 sdks:
-  dart: ">=2.13.0 <3.0.0"
+  dart: ">=2.17.0-0 <3.0.0"
   flutter: ">=2.0.0"
