@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
+import com.facebook.FacebookSdk;
 import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
 import com.facebook.LoginStatusCallback;
@@ -32,6 +33,10 @@ public class FacebookAuth {
 
     }
 
+    void setupConfig(String appID, MethodChannel.Result result) {
+        FacebookSdk.setApplicationId(appID);
+        result.success(null);
+    }
 
     /**
      * makes an login request using the facebook sdk

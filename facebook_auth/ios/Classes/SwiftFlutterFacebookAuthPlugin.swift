@@ -17,8 +17,6 @@ public class SwiftFlutterFacebookAuthPlugin: NSObject, FlutterPlugin {
     public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
         self.facebookAuth.handle(call, result: result)
     }
-
-    
     
     /// START ALLOW HANDLE NATIVE FACEBOOK APP
     public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [AnyHashable : Any] = [:]) -> Bool {

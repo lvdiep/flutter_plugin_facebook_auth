@@ -64,6 +64,12 @@ class FacebookAuth implements FacebookAuthPlatform {
   @override
   Future<void> logOut() => _.logOut();
 
+  @override
+  Future<void> setupConfig({
+    required String appId,
+    String version = "v10.0"
+  }) => _.setupConfig(appId: appId, version: version);
+
   /// make a login request using the facebook SDK
   ///
   /// [permissions] permissions like ["email","public_profile"]
